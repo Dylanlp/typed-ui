@@ -82,7 +82,7 @@ export default function Home() {
                 href="https://cal.com/dylanlp"
                 className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
               >
-                Get Started
+                Book a Demo
               </a>
             </div>
           </div>
@@ -111,6 +111,97 @@ export default function Home() {
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex gap-4">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-4xl font-medium tracking-tighter">
+                  Add Your Own Branding
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-4xl font-medium tracking-tighter">
+                  Launch in 15 mins
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex gap-4">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-4xl font-medium tracking-tighter">
+                  $100/mo
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Grow
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://buy.stripe.com/6oE3d33vSdzi8iQbII"
+                  target="_blank"
+                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                >
+                  Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-4xl font-medium tracking-tighter">
+                  $250/mo
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Pro
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://cal.com/dylanlp"
+                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                >
+                  Get Started
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-4xl font-medium tracking-tighter">
+                  $450/mo
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Enterprise
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://cal.com/dylanlp"
+                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                >
+                  Get Started
+                </a>
               </div>
             </div>
           </div>
