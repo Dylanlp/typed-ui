@@ -203,7 +203,7 @@ export default function Home() {
               </div>
               <div className="mt-auto">
                 <a
-                  href="https://buy.stripe.com/6oE3d33vSdzi8iQbII"
+                  href="https://buy.stripe.com/00g3d3giEbraeHe3ce"
                   target="_blank"
                   className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
                 >
@@ -231,7 +231,7 @@ export default function Home() {
               </div>
               <div className="mt-auto">
                 <a
-                  href="https://buy.stripe.com/6oE3d33vSdzi8iQbII"
+                  href="https://buy.stripe.com/7sIfZP1nK1QAgPmeUV"
                   target="_blank"
                   className="bg-neutral-900  cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
                 >
