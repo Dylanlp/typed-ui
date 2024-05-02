@@ -148,7 +148,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Configure Your Components
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -161,7 +161,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Add Your Own Branding
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -174,7 +174,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Launch in 15 mins
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
