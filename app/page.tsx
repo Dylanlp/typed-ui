@@ -91,8 +91,8 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-4xl font-medium tracking-tighter">
-                  Connect Your Data
+                <h2 className="text-2xl font-medium tracking-tighter">
+                  A More Natural Way
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
@@ -104,8 +104,21 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-4xl font-medium tracking-tighter">
-                  Configure Your Components
+                <h2 className="text-2xl font-medium tracking-tighter">
+                  Surface Relevant Data
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-2xl font-medium tracking-tighter">
+                  Increase Productivity
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
@@ -119,7 +132,33 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-4xl font-medium tracking-tighter">
+                <h2 className="text-2xl font-medium tracking-tighter">
+                  Connect Your Data
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-2xl font-medium tracking-tighter">
+                  Configure Your Components
+                </h2>
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+            <div className="flex flex-col gap-16 mt-auto ">
+              <div className="flex flex-col gap-3">
+                <h2 className="text-2xl font-medium tracking-tighter">
                   Add Your Own Branding
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
@@ -132,7 +171,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-4xl font-medium tracking-tighter">
+                <h2 className="text-2xl font-medium tracking-tighter">
                   Launch in 15 mins
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
@@ -143,6 +182,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="w-full flex gap-4">
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
