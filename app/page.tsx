@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+import icons01 from "./icons01.png";
+import icons02 from "./icons02.png";
+import icons03 from "./icons03.png";
+
 export default function Home() {
   return (
     <main className="flex  justify-between h-full bg-white">
@@ -187,6 +191,13 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
+                <Image
+                  src={icons01.src}
+                  alt="Grow"
+                  width={40}
+                  height={40}
+                  className="blend-darken mb-4"
+                />
                 <h2 className="text-4xl font-medium tracking-tighter">
                   $39/mo
                 </h2>
@@ -214,6 +225,13 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
+                <Image
+                  src={icons02.src}
+                  alt="Grow"
+                  width={40}
+                  height={40}
+                  className="blend-darken mb-4"
+                />
                 <h2 className="text-4xl font-medium tracking-tighter">
                   $99/mo
                 </h2>
@@ -242,6 +260,13 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16  ">
               <div className="flex flex-col gap-3">
+                <Image
+                  src={icons03.src}
+                  alt="Grow"
+                  width={40}
+                  height={40}
+                  className="blend-darken mb-4"
+                />
                 <h2 className="text-4xl font-medium tracking-tighter">
                   $299/mo
                 </h2>
