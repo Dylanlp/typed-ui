@@ -224,7 +224,7 @@ export default function Home() {
                 <ul>
                   <li>GPT-4 Turbo</li>
                   <li>Custom Branding</li>
-                  <li>Removed "Built with Typed UI"</li>
+                  <li>Remove Built with Typed UI</li>
                   <li>Custom Domain</li>
                   <li>28 Generative UI Components</li>
                 </ul>
