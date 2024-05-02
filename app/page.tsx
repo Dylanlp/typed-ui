@@ -116,8 +116,8 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Increase Productivity
                 </h2>
@@ -131,21 +131,20 @@ export default function Home() {
         </div>
         <div className="w-full flex gap-4">
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Connect Your Data
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
+                <p className="text-md text-neutral-500 tracking-tight">
+                  Connect your data via Airtable, Notion or CSV upload.
                 </p>
               </div>
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Configure Your Components
                 </h2>
@@ -157,8 +156,8 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Add Your Own Branding
                 </h2>
@@ -170,8 +169,8 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Launch in 15 mins
                 </h2>
