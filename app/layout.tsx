@@ -7,7 +7,7 @@ import favicon from "./favicon.ico";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TypedUI",
+  title: "Typed UI",
   description: "Generative UI for Everyone",
 };
 

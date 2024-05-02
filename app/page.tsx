@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex  justify-between h-screen bg-white">
+    <main className="flex  justify-between h-full bg-white">
       <div className="p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
         <div className="flex h-[440px] flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
           <nav className="flex items-center gap-14">
@@ -70,11 +70,12 @@ export default function Home() {
           <div className="flex flex-col gap-16 mt-auto ">
             <div className="flex flex-col gap-3">
               <h1 className="text-5xl font-medium tracking-tighter">
-                Generative UI for Everyone
+                Create Your Own AI Chat
               </h1>
               <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                Let your users ask questions and receive answers in helpful UI
-                components.
+                Quickly create your own AI chat, with Generative UI built-in.
+                <br></br>Let your users ask questions and receive answers in
+                helpful UI components.
               </p>
             </div>
             <div>
@@ -94,7 +95,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   A More Natural Way
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md  text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -107,7 +108,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Surface Relevant Data
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md  text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -120,7 +121,7 @@ export default function Home() {
                 <h2 className="text-2xl font-medium tracking-tighter">
                   Increase Productivity
                 </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                <p className="text-md  text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -185,16 +186,22 @@ export default function Home() {
 
         <div className="w-full flex gap-4">
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-4xl font-medium tracking-tighter">
-                  $100/mo
+                  $39/mo
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Grow
+                  Start
                 </p>
+                <ul>
+                  <li>GPT-3.5 Turbo</li>
+                  <li className="opacity-50">Custom Branding</li>
+                  <li className="opacity-50">Custom Domain</li>
+                  <li className="">10 Generative UI Components</li>
+                </ul>
               </div>
-              <div>
+              <div className="mt-auto">
                 <a
                   href="https://buy.stripe.com/6oE3d33vSdzi8iQbII"
                   target="_blank"
@@ -206,19 +213,27 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-16 h-full ">
+              <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-4xl font-medium tracking-tighter">
-                  $250/mo
+                  $99/mo
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Pro
+                  Grow
                 </p>
+                <ul>
+                  <li>GPT-4 Turbo</li>
+                  <li>Custom Branding</li>
+                  <li>Removed "Built with Typed UI"</li>
+                  <li>Custom Domain</li>
+                  <li>28 Generative UI Components</li>
+                </ul>
               </div>
-              <div>
+              <div className="mt-auto">
                 <a
-                  href="https://cal.com/dylanlp"
-                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                  href="https://buy.stripe.com/6oE3d33vSdzi8iQbII"
+                  target="_blank"
+                  className="bg-neutral-900  cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
                 >
                   Get Started
                 </a>
@@ -226,21 +241,28 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
+            <div className="flex flex-col gap-16  ">
               <div className="flex flex-col gap-3">
                 <h2 className="text-4xl font-medium tracking-tighter">
-                  $450/mo
+                  $299/mo
                 </h2>
                 <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Enterprise
+                  Pro
                 </p>
+                <ul>
+                  <li>GPT-4 Turbo, Llama 3 70b & Claude Opus 3</li>
+                  <li className="">Custom Branding</li>
+                  <li className="">Custom Domain</li>
+                  <li className="">64 Generative UI Components</li>
+                  <li className="">Monthly Support</li>
+                </ul>
               </div>
               <div>
                 <a
                   href="https://cal.com/dylanlp"
                   className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
                 >
-                  Get Started
+                  Book a Call
                 </a>
               </div>
             </div>
