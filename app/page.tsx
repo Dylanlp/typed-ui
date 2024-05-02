@@ -292,6 +292,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        <div className="w-full flex gap-4 text-xs text-neutral-400 justify-between">
+          <p>© 2018 - 2024 Bankside Partners Ltd.</p>
+          <p>London, UK</p>
+        </div>
       </div>
     </main>
   );
