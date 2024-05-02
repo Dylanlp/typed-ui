@@ -78,7 +78,10 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <a className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full">
+              <a
+                href="https://cal.com/dylanlp"
+                className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+              >
                 Get Started
               </a>
             </div>
