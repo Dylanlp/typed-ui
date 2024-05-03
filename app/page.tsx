@@ -77,7 +77,8 @@ export default function Home() {
                 Create Your Own AI Chat
               </h1>
               <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                Quickly create your own AI chat, with Generative UI built-in.
+                No code required. Quickly create your own AI chat, with
+                Generative UI built-in.
                 <br></br>Let your users ask questions and receive answers in
                 helpful UI components.
               </p>
