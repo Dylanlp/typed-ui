@@ -83,12 +83,18 @@ export default function Home() {
                 helpful UI components.
               </p>
             </div>
-            <div>
+            <div className="flex gap-3">
               <a
                 href="https://cal.com/dylanlp"
                 className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
               >
                 Book a Demo
+              </a>
+              <a
+                href="https://cal.com/dylanlp"
+                className="bg-white cursor-pointer hover:bg-neutral-200 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-neutral-700 px-4 py-2 rounded-full"
+              >
+                Join Waitlist
               </a>
             </div>
           </div>
