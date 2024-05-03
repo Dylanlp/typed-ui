@@ -135,7 +135,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full flex gap-4">
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
@@ -147,7 +147,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
@@ -160,7 +160,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
@@ -173,7 +173,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
                 <h2 className="text-2xl font-medium tracking-tighter">
