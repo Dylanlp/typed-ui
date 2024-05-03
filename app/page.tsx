@@ -4,6 +4,10 @@ import icons01 from "./icons01.png";
 import icons02 from "./icons02.png";
 import icons03 from "./icons03.png";
 
+import art1 from "./art1.webp";
+import art2 from "./art2.webp";
+import art3 from "./art3.webp";
+
 export default function Home() {
   return (
     <main className="flex  justify-between h-full bg-white">
@@ -105,44 +109,65 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full flex gap-4">
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  A More Natural Way
-                </h2>
-                <p className="text-md  text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
-                </p>
-              </div>
+        <div className="w-full flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+            <div className="flex flex-col gap-3 relative h-64">
+              <Image
+                src={art1}
+                alt="chat"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
+            </div>
+            <div className="flex flex-col p-6 gap-3">
+              <h2 className="text-xl font-medium tracking-tighter">
+                A More Natural Way
+              </h2>
+              <p className="text-md  text-neutral-500 tracking-tight">
+                Let your users ask questions and receive answers in helpful UI
+                components.
+              </p>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Surface Relevant Data
-                </h2>
-                <p className="text-md  text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
-                </p>
-              </div>
+          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+            <div className="flex flex-col gap-3 relative h-64">
+              <Image
+                src={art2}
+                alt="chat"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
+            </div>
+
+            <div className="flex flex-col p-6 gap-3">
+              <h2 className="text-xl font-medium tracking-tighter">
+                Surface Relevant Data
+              </h2>
+              <p className="text-md  text-neutral-500 tracking-tight">
+                Let your users ask questions and receive answers in helpful UI
+                components.
+              </p>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 h-full ">
-              <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Increase Productivity
-                </h2>
-                <p className="text-md  text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
-                </p>
-              </div>
+
+          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+            <div className="flex flex-col gap-3 relative h-64">
+              <Image
+                src={art3}
+                alt="chat"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
+            </div>
+
+            <div className="flex flex-col p-6 gap-3">
+              <h2 className="text-xl font-medium tracking-tighter">
+                Increase Productivity
+              </h2>
+              <p className="text-md  text-neutral-500 tracking-tight">
+                Let your users ask questions and receive answers in helpful UI
+                components.
+              </p>
             </div>
           </div>
         </div>
