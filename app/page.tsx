@@ -9,7 +9,7 @@ export default function Home() {
     <main className="flex  justify-between h-full bg-white">
       <div className="p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
         <div className="flex h-[440px] flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-          <nav className="flex items-center gap-14">
+          <nav className="flex items-center gap-12">
             <a className="text-xl font-medium">
               <svg
                 width="114"
@@ -64,10 +64,16 @@ export default function Home() {
                 />
               </svg>
             </a>
-            <div className=" text-neutral-500 text-sm tracking-tight flex gap-6">
-              <a>Pricing</a>
-              <a>Use Cases</a>
-              <a>FAQs</a>
+            <div className=" text-neutral-500 text-sm tracking-tight flex gap-3">
+              <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
+                Pricing
+              </a>
+              <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
+                Use Cases
+              </a>
+              <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
+                FAQs
+              </a>
             </div>
           </nav>
 
@@ -83,16 +89,16 @@ export default function Home() {
                 helpful UI components.
               </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex  gap-3">
               <a
                 href="https://cal.com/dylanlp"
-                className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                className="bg-neutral-900 cursor-pointer shadow-sm hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-none items-center justify-center  text-white px-4 py-2 rounded-full"
               >
                 Book a Demo
               </a>
               <a
                 href="https://cal.com/dylanlp"
-                className="bg-white cursor-pointer hover:bg-neutral-200 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-neutral-700 px-4 py-2 rounded-full"
+                className="bg-white cursor-pointer shadow-sm hover:bg-neutral-100/50 duration-200 ease-in-out inline-flex flex-none border border-neutral-200 items-center justify-center  text-neutral-700 px-4 py-2 rounded-full"
               >
                 Join Waitlist
               </a>
@@ -103,7 +109,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   A More Natural Way
                 </h2>
                 <p className="text-md  text-neutral-500 tracking-tight">
@@ -116,7 +122,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Surface Relevant Data
                 </h2>
                 <p className="text-md  text-neutral-500 tracking-tight">
@@ -129,7 +135,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Increase Productivity
                 </h2>
                 <p className="text-md  text-neutral-500 tracking-tight">
@@ -144,7 +150,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Connect Your Data
                 </h2>
                 <p className="text-md text-neutral-500 tracking-tight">
@@ -156,7 +162,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Configure Your Components
                 </h2>
                 <p className="text-md text-neutral-500 tracking-tight">
@@ -169,7 +175,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Add Your Own Branding
                 </h2>
                 <p className="text-md text-neutral-500 tracking-tight">
@@ -182,7 +188,7 @@ export default function Home() {
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-2xl font-medium tracking-tighter">
+                <h2 className="text-xl font-medium tracking-tighter">
                   Launch in 15 mins
                 </h2>
                 <p className="text-md text-neutral-500 tracking-tight">
