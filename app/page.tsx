@@ -162,11 +162,10 @@ export default function Home() {
 
             <div className="flex flex-col p-6 gap-3">
               <h2 className="text-xl font-medium tracking-tighter">
-                Increase Productivity
+                Beautiful Design
               </h2>
               <p className="text-md  text-neutral-500 tracking-tight">
-                Let your users ask questions and receive answers in helpful UI
-                components.
+                We pay attention to the details so you don't have to.
               </p>
             </div>
           </div>
