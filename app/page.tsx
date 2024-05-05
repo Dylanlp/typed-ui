@@ -165,7 +165,9 @@ export default function Home() {
                 Beautiful Design
               </h2>
               <p className="text-md  text-neutral-500 tracking-tight">
-                We pay attention to the details so you don't have to..
+                Let your users ask questions and receive answers in helpful UI
+                components.
+              </p>
             </div>
           </div>
         </div>
