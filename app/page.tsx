@@ -1,18 +1,56 @@
+"use client";
+
 import Image from "next/image";
+
+import React, { useState, useEffect, useContext } from "react";
 
 import icons01 from "./icons01.png";
 import icons02 from "./icons02.png";
 import icons03 from "./icons03.png";
+import { IconMessageFill } from "symbols-react";
+
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
+
+import { motion } from "framer-motion";
 
 import art1 from "./art1.webp";
 import art2 from "./art2.webp";
 import art3 from "./art3.webp";
+import art4 from "./art4.jpg";
+import art5 from "./art5.jpg";
+import art6 from "./art6.jpg";
+import art7 from "./art7.jpg";
+import art8 from "./art8.jpg";
+import art9 from "./art9.jpg";
+import art10 from "./art10.jpg";
+import art11 from "./art11.jpg";
+import art12 from "./art12.jpg";
 
 export default function Home() {
   return (
     <main className="flex  justify-between h-full bg-white">
+      <Popover>
+        <PopoverTrigger className="z-20 fixed mr-4 mb-4 bottom-0   right-0 h-12 w-12 flex items-center justify-center rounded-full shadow-lg bg-primary text-white">
+          <IconMessageFill size={16} fill="currentColor" />
+        </PopoverTrigger>
+        <PopoverContent className="p-0 mr-4 mb-2 h-[440px] z-20 bg-white rounded-xl border overflow-hidden w-96">
+          <iframe
+            className="w-full h-full overflow-hidden"
+            src="https://mallorcainsights.typedui.com/"
+            name="preview"
+            height="100%"
+            width="100%"
+            loading="eager"
+          ></iframe>
+        </PopoverContent>
+      </Popover>
+
       <div className="p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
-        <div className="flex h-[560px] flex-row  gap-16 w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+        <div className="flex h-[496px] flex-row  gap-16 w-full rounded-3xl p-10 bg-muted/30 border ">
           <div className="flex flex-col w-full justify-between h-full">
             <nav className="flex items-center gap-12">
               <a className="text-xl font-medium">
@@ -84,14 +122,13 @@ export default function Home() {
 
             <div className="flex flex-col gap-16 mt-auto ">
               <div className="flex flex-col gap-3">
-                <h1 className="text-4xl font-medium tracking-tighter">
-                  Create Your Own AI Chat
+                <h1 className="text-5xl font-medium leading-[3.3rem] tracking-tighter">
+                  Custom ChatGPT <br></br> for your Website
                 </h1>
-                <p className="text-md mt-3 text-neutral-500 tracking-tight">
+                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                  Add your data, create your chat and embed it on your website,
+                  all in 15 minutes.{" "}
                   <span className="font-medium ">No code required.</span>{" "}
-                  Quickly create your own AI chat, with Generative UI built-in.
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
                 </p>
               </div>
               <div className="flex  gap-3">
@@ -110,123 +147,149 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full h-full ml-auto rounded-2xl border border-neutral-200 bg-white overflow-hidden">
-            <iframe
+          <div className="w-full h-full ml-auto rounded-2xl  overflow-hidden">
+            <div className="h-full p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                transition={{ delay: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+              >
+                <div className="text-white  px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                  I'm looking for a 3 bed, 2 bath with a pool
+                </div>
+              </motion.div>
+              <div className="w-full flex flex-col gap-3">
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  transition={{ delay: 1.3 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                >
+                  <div className="text-primary px-4 py-2 inline-flex  rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                    Ok, sure. Here are some properties you might like
+                  </div>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  transition={{ delay: 1.6 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="flex flex-row gap-2 text-sm"
+                >
+                  <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm border">
+                    <div className="h-20 relative overflow-hidden">
+                      <Image
+                        src={art1}
+                        alt="chat"
+                        className=" absolute   object-cover"
+                      />
+                    </div>
+                    <div className="p-3 flex flex-col gap-1 ">
+                      <h3 className="font-medium">Stunning Villa</h3>
+                      <p className="text-sm">$1,246,297</p>
+                    </div>
+                  </div>
+                  <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm border">
+                    <div className="h-20 relative overflow-hidden">
+                      <Image
+                        src={art1}
+                        alt="chat"
+                        className=" absolute   object-cover"
+                      />
+                    </div>
+                    <div className="p-3 flex flex-col gap-1 ">
+                      <h3 className="font-medium">Stunning Villa</h3>
+                      <p className="text-sm">$1,246,297</p>
+                    </div>
+                  </div>
+                  <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm border">
+                    <div className="h-20 relative overflow-hidden">
+                      <Image
+                        src={art1}
+                        alt="chat"
+                        className=" absolute   object-cover"
+                      />
+                    </div>
+                    <div className="p-3 flex flex-col gap-1 ">
+                      <h3 className="font-medium">Stunning Villa</h3>
+                      <p className="text-sm">$1,246,297</p>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                transition={{ delay: 4.5 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="flex flex-row gap-2 text-sm"
+              >
+                <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                  These look great, which is best if I like hiking?
+                </div>
+              </motion.div>
+            </div>
+            {/* <iframe
               className="w-full h-full overflow-hidden"
               src="https://mallorcainsights.typedui.com/"
               name="preview"
               height="100%"
               width="100%"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
-        <div className="w-full flex flex-col sm:flex-row gap-4">
-          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
-            <div className="flex flex-col gap-3 relative h-64">
-              <Image
-                src={art1}
-                alt="chat"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
-            </div>
-            <div className="flex flex-col p-6 gap-3">
-              <h2 className="text-xl font-medium tracking-tighter">
-                A More Natural Way
-              </h2>
-              <p className="text-md  text-neutral-500 tracking-tight">
-                Let your users ask questions and receive answers in helpful UI
-                components.
-              </p>
-            </div>
-          </div>
-          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
-            <div className="flex flex-col gap-3 relative h-64">
-              <Image
-                src={art2}
-                alt="chat"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
-            </div>
-
-            <div className="flex flex-col p-6 gap-3">
-              <h2 className="text-xl font-medium tracking-tighter">
-                Surface Relevant Data
-              </h2>
-              <p className="text-md  text-neutral-500 tracking-tight">
-                Let your users ask questions and receive answers in helpful UI
-                components.
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
-            <div className="flex flex-col gap-3 relative h-64">
-              <Image
-                src={art3}
-                alt="chat"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 left-0 right-0 top-0 bg-white m-6 rounded-xl shadow-md"></div>
-            </div>
-
-            <div className="flex flex-col p-6 gap-3">
-              <h2 className="text-xl font-medium tracking-tighter">
-                Beautiful Design
-              </h2>
-              <p className="text-md  text-neutral-500 tracking-tight">
-                Let your users ask questions and receive answers in helpful UI
-                components.
-              </p>
-            </div>
-          </div>
+        <div className="w-full flex flex-col sm:flex-row py-3 items-center justify-between px-14 font-bold uppercase text-sm text-neutral-500">
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
+          <div>Logo</div>
         </div>
         <div className="w-full flex gap-4">
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
+          <div className="flex flex-col  w-full rounded-3xl p-6 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Connect Your Data
-                </h2>
+                <div className="flex flex-col gap-1">
+                  <p className="text-sm text-accent-foreground">Step 1</p>
+                  <h2 className="text-xl font-medium tracking-tighter">
+                    Connect Your Data
+                  </h2>
+                </div>
                 <p className="text-md text-neutral-500 tracking-tight">
                   Connect your data via Airtable, Notion or CSV upload.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
+          <div className="flex flex-col  w-full rounded-3xl p-6 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Configure Your Components
-                </h2>
+                <div className="flex flex-col gap-1">
+                  <p className="text-sm text-accent-foreground">Step 2</p>
+                  <h2 className="text-xl font-medium tracking-tighter">
+                    Customize
+                  </h2>
+                </div>
                 <p className="text-md text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
+                  Add your branding and style.
                 </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
+          <div className="flex flex-col  w-full rounded-3xl p-6 bg-neutral-50/50 border border-neutral-100">
             <div className="flex flex-col gap-16 h-full ">
               <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Add Your Own Branding
-                </h2>
-                <p className="text-md text-neutral-500 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50/50 border border-neutral-100">
-            <div className="flex flex-col gap-16 h-full ">
-              <div className="flex flex-col gap-3 h-full">
-                <h2 className="text-xl font-medium tracking-tighter">
-                  Launch in 15 mins
-                </h2>
+                <div className="flex flex-col gap-1">
+                  <p className="text-sm text-accent-foreground">Step 3</p>
+                  <h2 className="text-xl font-medium tracking-tighter">
+                    Add to your website
+                  </h2>
+                </div>
                 <p className="text-md text-neutral-500 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
@@ -235,7 +298,183 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex w-full flex-col gap-12 items-center justify-center my-12">
+          <div className="flex w-full flex-col gap-3 text-center">
+            <h2 className="text-4xl font-medium leading-10 tracking-tighter">
+              Why do I need this?
+            </h2>
+            <p className="text-md mt-2 text-neutral-500 tracking-tight">
+              Add your data, create your chat and embed it on your website, all
+              in 15 minutes.{" "}
+            </p>
+          </div>
+          <div className="w-full grid grid-cols-2 gap-4">
+            <div className="flex flex-col relative  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+              <Image
+                src={art3}
+                alt="chat"
+                className=" absolute h-full  object-cover"
+              />
+              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+                <h2 className="text-3xl font-medium tracking-tighter">
+                  Increase engagement
+                </h2>
+                <p className="text-xl  w-96 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+              <div className="flex flex-col pb-6 px-6 relative ">
+                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                  <div>
+                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                      I'm looking for a 3 bed, 2 bath with a pool
+                    </div>
+                  </div>
+                  <div className="w-full flex flex-col gap-3">
+                    <div>
+                      <div className="text-primary px-4 py-2 inline-flex  rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                        Ok, sure. Here are some properties you might like
+                      </div>
+                    </div>
+                    <div className="flex flex-row gap-2">
+                      <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm border">
+                        <div className="h-24 relative overflow-hidden">
+                          <Image
+                            src={art1}
+                            alt="chat"
+                            className=" absolute h-full  object-cover"
+                          />
+                        </div>
+                        <div className="p-4 ">
+                          <h3>3 bed, 2 bath</h3>
+                          <p>1234567890</p>
+                        </div>
+                      </div>
+                      <div className="rounded-lg w-full flex flex-col overflow-hidden bg-white shadow-sm border">
+                        <div className="h-24 relative overflow-hidden">
+                          <Image
+                            src={art1}
+                            alt="chat"
+                            className=" absolute   object-cover"
+                          />
+                        </div>
+                        <div className="p-4 ">
+                          <h3>3 bed, 2 bath</h3>
+                          <p>1234567890</p>
+                        </div>
+                      </div>
+                      <div className="rounded-lg w-full flex flex-col overflow-hidden bg-white shadow-sm border">
+                        <div className="h-24 relative overflow-hidden">
+                          <Image
+                            src={art1}
+                            alt="chat"
+                            className=" absolute h-full  object-cover"
+                          />
+                        </div>
+                        <div className="p-4 ">
+                          <h3>3 bed, 2 bath</h3>
+                          <p>1234567890</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col relative  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+              <Image
+                src={art1}
+                alt="chat"
+                className=" absolute h-full  object-cover"
+              />
+              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+                <h2 className="text-3xl font-medium tracking-tighter">
+                  Better customer support
+                </h2>
+                <p className="text-xl  w-96 tracking-tight">
+                  Users can get their questions answered in seconds, using
+                  answers from your data.
+                </p>
+              </div>
+              <div className="flex flex-col pb-6 px-6 relative h-64">
+                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                  <div>
+                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                      Are you open on Tuesday?
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      Yes, we're open every weekday from 9am to 5pm
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="flex flex-col relative  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+              <Image
+                src={art10}
+                alt="chat"
+                className=" absolute   object-cover"
+              />
+              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+                <h2 className="text-3xl font-medium tracking-tighter">
+                  Generate leads
+                </h2>
+                <p className="text-xl  w-96 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+              <div className="flex flex-col pb-6 px-6 relative h-64">
+                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                  <div>
+                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                      I'm looking to buy a house for $1-3m
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      Great, we can help you with that. An areas in particular?
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col relative  w-full rounded-3xl overflow-hidden  bg-neutral-50/50 border border-neutral-100">
+              <Image
+                src={art12}
+                alt="chat"
+                className=" absolute  scale-x-[-1] object-cover"
+              />
+              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+                <h2 className="text-3xl font-medium tracking-tighter">
+                  Save time
+                </h2>
+                <p className="text-xl  w-96 tracking-tight">
+                  Let your users ask questions and receive answers in helpful UI
+                  components.
+                </p>
+              </div>
+              <div className="flex flex-col pb-6 px-6 relative h-64">
+                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                  <div>
+                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                      I don't know what I want...
+                    </div>
+                  </div>
+                  <div className="w-full">
+                    <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      Yes, we're open every weekday from 9am to 5pm
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="w-full flex gap-4">
           <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
             <div className="flex flex-col gap-16 h-full ">
