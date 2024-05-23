@@ -156,7 +156,7 @@ export default function Home() {
                 viewport={{ once: true }}
               >
                 <div className="text-white  px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
-                  I'm looking for a 3 bed, 2 bath with a pool
+                  I&apos;m looking for a 3 bed, 2 bath with a pool
                 </div>
               </motion.div>
               <div className="w-full flex flex-col gap-3">
@@ -328,7 +328,7 @@ export default function Home() {
                 <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
                     <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
-                      I'm looking for a 3 bed, 2 bath with a pool
+                      I&apos;m looking for a 3 bed, 2 bath with a pool
                     </div>
                   </div>
                   <div className="w-full flex flex-col gap-3">
@@ -406,7 +406,7 @@ export default function Home() {
                   </div>
                   <div className="w-full">
                     <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
-                      Yes, we're open every weekday from 9am to 5pm
+                      Yes, we&apos;re open every weekday from 9am to 5pm
                     </div>
                   </div>
                 </div>
@@ -432,7 +432,7 @@ export default function Home() {
                 <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
                     <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
-                      I'm looking to buy a house for $1-3m
+                      I&apos;m looking to buy a house for $1-3m
                     </div>
                   </div>
                   <div className="w-full">
@@ -462,12 +462,12 @@ export default function Home() {
                 <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
                     <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
-                      I don't know what I want...
+                      I don&apos;t know what I want...
                     </div>
                   </div>
                   <div className="w-full">
                     <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
-                      Yes, we're open every weekday from 9am to 5pm
+                      Yes, we&apos;re open every weekday from 9am to 5pm
                     </div>
                   </div>
                 </div>
