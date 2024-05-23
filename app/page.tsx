@@ -211,33 +211,39 @@ export default function Home() {
                     </div>
                     <div className="p-3 flex flex-col gap-1 ">
                       <h3 className="font-medium">Stunning Villa</h3>
-                      <p className="text-sm">$1,246,297</p>
+                      <p className="text-sm text-muted-foreground">
+                        $1,246,297
+                      </p>
                     </div>
                   </div>
                   <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md duration-200 ease-in-out border">
                     <div className="h-20 relative overflow-hidden">
                       <Image
-                        src={house1}
+                        src={art12}
                         alt="chat"
                         className=" absolute h-full  object-cover"
                       />
                     </div>
                     <div className="p-3 flex flex-col gap-1 ">
-                      <h3 className="font-medium">Stunning Villa</h3>
-                      <p className="text-sm">$1,246,297</p>
+                      <h3 className="font-medium">Seaview House</h3>
+                      <p className="text-sm text-muted-foreground">
+                        $1,246,297
+                      </p>
                     </div>
                   </div>
                   <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md duration-200 ease-in-out border">
                     <div className="h-20 relative overflow-hidden">
                       <Image
-                        src={house1}
+                        src={art3}
                         alt="chat"
                         className=" absolute h-full  object-cover"
                       />
                     </div>
                     <div className="p-3 flex flex-col gap-1 ">
-                      <h3 className="font-medium">Stunning Villa</h3>
-                      <p className="text-sm">$1,246,297</p>
+                      <h3 className="font-medium">Beach House</h3>
+                      <p className="text-sm text-muted-foreground">
+                        $1,246,297
+                      </p>
                     </div>
                   </div>
                 </motion.div>
@@ -263,16 +269,97 @@ export default function Home() {
             ></iframe> */}
           </div>
         </div>
-        <div className="w-full flex flex-col sm:flex-row py-3 items-center justify-between px-14 font-bold uppercase text-sm text-neutral-500">
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
-          <div>Logo</div>
+        <div className="w-full flex flex-col sm:flex-row py-4 items-center justify-between px-24 font-bold uppercase text-sm text-muted-foreground/50">
+          <div className="h-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              fill="none"
+              viewBox="0 0 220 40"
+            >
+              <path
+                fill="currentColor"
+                d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"
+              ></path>
+            </svg>
+          </div>
+          <div className="h-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              fill="none"
+              viewBox="0 0 220 40"
+            >
+              <path
+                fill="currentColor"
+                d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"
+              ></path>
+            </svg>
+          </div>{" "}
+          <div className="h-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              fill="none"
+              viewBox="0 0 220 40"
+            >
+              <path
+                fill="currentColor"
+                d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"
+              ></path>
+            </svg>
+          </div>{" "}
+          <div className="h-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              fill="none"
+              viewBox="0 0 220 40"
+            >
+              <path
+                fill="currentColor"
+                d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"
+              ></path>
+            </svg>
+          </div>{" "}
+          <div className="h-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              fill="none"
+              viewBox="0 0 220 40"
+            >
+              <path
+                fill="currentColor"
+                d="M20 40c11.046 0 20-8.954 20-20V6a6 6 0 0 0-6-6H21v8.774c0 2.002.122 4.076 1.172 5.78a9.999 9.999 0 0 0 6.904 4.627l.383.062a.8.8 0 0 1 0 1.514l-.383.062a10 10 0 0 0-8.257 8.257l-.062.383a.8.8 0 0 1-1.514 0l-.062-.383a10 10 0 0 0-4.627-6.904C12.85 21.122 10.776 21 8.774 21H.024C.547 31.581 9.29 40 20 40Z"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M0 19h8.774c2.002 0 4.076-.122 5.78-1.172a10.018 10.018 0 0 0 3.274-3.274C18.878 12.85 19 10.776 19 8.774V0H6a6 6 0 0 0-6 6v13ZM46.455 2a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM211.711 12.104c5.591 0 8.289 3.905 8.289 8.428v8.495h-5.851V21.54c0-2.05-.748-3.742-2.893-3.742-2.145 0-2.86 1.692-2.86 3.742v7.486h-5.851V21.54c0-2.05-.715-3.742-2.861-3.742-2.145 0-2.893 1.692-2.893 3.742v7.486h-5.85v-8.495c0-4.523 2.697-8.428 8.288-8.428 3.056 0 5.266 1.204 6.274 3.189 1.072-1.985 3.413-3.19 6.208-3.19ZM180.427 23.82c1.885 0 2.698-1.725 2.698-3.776v-7.29h5.85v8.006c0 4.784-2.795 8.755-8.548 8.755-5.754 0-8.549-3.97-8.549-8.755v-8.006h5.851v7.29c0 2.05.812 3.776 2.698 3.776ZM163.275 29.547c-3.673 0-6.046-1.269-7.444-3.742l4.226-2.376c.585 1.041 1.462 1.562 2.925 1.562 1.203 0 1.755-.423 1.755-.944 0-1.985-8.581.033-8.581-6.28 0-3.06 2.6-5.533 7.021-5.533 3.868 0 5.981 1.887 6.924 3.71l-4.226 2.408c-.357-.976-1.463-1.562-2.568-1.562-.845 0-1.3.358-1.3.846 0 2.018 8.581.163 8.581 6.281 0 3.417-3.348 5.63-7.313 5.63ZM142.833 36.512h-5.851V20.858c0-4.98 3.738-8.592 8.939-8.592 5.071 0 8.939 3.873 8.939 8.592 0 5.207-3.446 8.657-8.614 8.657-1.203 0-2.405-.358-3.413-.912v7.909Zm3.088-12.497c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.124-3.088-3.124s-3.088 1.4-3.088 3.125c0 1.692 1.235 3.124 3.088 3.124ZM131.121 11.03c-1.918 0-3.51-1.595-3.51-3.515 0-1.92 1.592-3.515 3.51-3.515 1.918 0 3.511 1.595 3.511 3.515 0 1.92-1.593 3.515-3.511 3.515Zm-2.925 1.724h5.851v16.273h-5.851V12.754ZM116.97 29.515c-5.071 0-8.939-3.905-8.939-8.657 0-4.719 3.868-8.624 8.939-8.624s8.939 3.905 8.939 8.624c0 4.752-3.868 8.657-8.939 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM96.983 37c-4.03 0-6.956-1.79-8.451-4.98l4.843-2.603c.52 1.107 1.495 2.246 3.51 2.246 2.114 0 3.511-1.335 3.674-3.678-.78.684-2.016 1.204-3.868 1.204-4.519 0-8.16-3.482-8.16-8.364 0-4.718 3.869-8.559 8.94-8.559 5.201 0 8.939 3.613 8.939 8.592v6.444c0 5.858-4.064 9.698-9.427 9.698Zm.39-13.31c1.755 0 3.088-1.205 3.088-2.995 0-1.757-1.332-2.929-3.088-2.929-1.723 0-3.088 1.172-3.088 2.93 0 1.79 1.365 2.993 3.088 2.993ZM78.607 29.515c-5.071 0-8.94-3.905-8.94-8.657 0-4.719 3.869-8.624 8.94-8.624 5.07 0 8.939 3.905 8.939 8.624 0 4.752-3.869 8.657-8.94 8.657Zm0-5.5c1.853 0 3.088-1.432 3.088-3.125 0-1.724-1.235-3.156-3.088-3.156s-3.088 1.432-3.088 3.156c0 1.693 1.235 3.125 3.088 3.125ZM59.013 7.06v16.434H68.7v5.533H58.2c-3.705 0-5.2-1.953-5.2-5.045V7.06h6.013Z"
+              ></path>
+            </svg>
+          </div>{" "}
         </div>
         <div className="w-full flex gap-4">
           <div className="flex flex-col  w-full rounded-3xl p-6 bg-green-50/10 hover:bg-green-50/50 duration-200 ease-in-out border border-green-100">
@@ -315,7 +402,7 @@ export default function Home() {
                   </h2>
                 </div>
                 <p className="text-md text-neutral-500 tracking-tight">
-                  Embed or add via a link
+                  Embed or add via a link.
                 </p>
               </div>
             </div>
@@ -327,8 +414,7 @@ export default function Home() {
               Why do I need this?
             </h2>
             <p className="text-md mt-2 text-neutral-500 tracking-tight">
-              Add your data, create your chat and embed it on your website, all
-              in 15 minutes.{" "}
+              Typed UI makes it easy to add chat to your website
             </p>
           </div>
           <div className="w-full grid grid-cols-2 gap-4">
@@ -440,11 +526,11 @@ export default function Home() {
               />
               <div className="flex flex-col  text-white p-12 gap-2 z-10">
                 <h2 className="text-3xl font-medium tracking-tighter">
-                  Better customer support
+                  Improve customer support
                 </h2>
                 <p className="text-xl  w-96 tracking-tight">
-                  Users can get their questions answered in seconds, using
-                  answers from your data.
+                  Provide instant answers to user queries by leveraging your
+                  data.
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative ">
@@ -496,9 +582,9 @@ export default function Home() {
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Generate leads
                 </h2>
-                <p className="text-xl  w-96 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
+                <p className="text-xl w-96 tracking-tight">
+                  Capture potential customers by allowing them to interact and
+                  get immediate answers.
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative h-64">
@@ -526,9 +612,9 @@ export default function Home() {
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Save time
                 </h2>
-                <p className="text-xl  w-96 tracking-tight">
-                  Let your users ask questions and receive answers in helpful UI
-                  components.
+                <p className="text-xl w-96 tracking-tight">
+                  Your team can spend less time on support by enabling users to
+                  quickly get the information they need.
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative h-64">
@@ -548,107 +634,205 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full flex gap-4">
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 h-full ">
-              <div className="flex flex-col gap-3 h-full">
-                <Image
-                  src={icons01.src}
-                  alt="Grow"
-                  width={40}
-                  height={40}
-                  className="blend-darken mb-4"
-                />
-                <h2 className="text-4xl font-medium tracking-tighter">
-                  $39/mo
-                </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Start
-                </p>
-                <ul>
-                  <li>GPT-3.5 Turbo</li>
-                  <li className="opacity-50">Custom Branding</li>
-                  <li className="opacity-50">Custom Domain</li>
-                  <li className="">10 Generative UI Components</li>
-                </ul>
+        <div className="flex w-full flex-col gap-12 items-center justify-center my-12">
+          <div className="flex w-full flex-col gap-3 text-center">
+            <h2 className="text-4xl font-medium leading-10 tracking-tighter">
+              Pricing
+            </h2>
+            <p className="text-md mt-2 text-neutral-500 tracking-tight">
+              Pricing plans that scale with you
+            </p>
+          </div>
+          <div className="w-full flex gap-4">
+            <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-3 h-full">
+                  <Image
+                    src={icons01.src}
+                    alt="Grow"
+                    width={40}
+                    height={40}
+                    className="blend-darken mb-4"
+                  />
+                  <h2 className="text-4xl font-medium tracking-tighter">
+                    $39/mo
+                  </h2>
+                  <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                    Start
+                  </p>
+                  <ul>
+                    <li>GPT-3.5 Turbo</li>
+                    <li className="opacity-50">Custom Branding</li>
+                    <li className="opacity-50">Custom Domain</li>
+                    <li className="">10 Generative UI Components</li>
+                  </ul>
+                </div>
+                <div className="mt-auto">
+                  <a
+                    href="https://buy.stripe.com/00g3d3giEbraeHe3ce"
+                    target="_blank"
+                    className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                  >
+                    Get Started
+                  </a>
+                </div>
               </div>
-              <div className="mt-auto">
-                <a
-                  href="https://buy.stripe.com/00g3d3giEbraeHe3ce"
-                  target="_blank"
-                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
-                >
-                  Get Started
-                </a>
+            </div>
+            <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-3 h-full">
+                  <Image
+                    src={icons02.src}
+                    alt="Grow"
+                    width={40}
+                    height={40}
+                    className="blend-darken mb-4"
+                  />
+                  <h2 className="text-4xl font-medium tracking-tighter">
+                    $99/mo
+                  </h2>
+                  <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                    Grow
+                  </p>
+                  <ul>
+                    <li>GPT-4 Turbo</li>
+                    <li>Custom Branding</li>
+                    <li>Remove Built with Typed UI</li>
+                    <li>Custom Domain</li>
+                    <li>28 Generative UI Components</li>
+                  </ul>
+                </div>
+                <div className="mt-auto">
+                  <a
+                    href="https://buy.stripe.com/7sIfZP1nK1QAgPmeUV"
+                    target="_blank"
+                    className="bg-neutral-900  cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                  >
+                    Get Started
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
+              <div className="flex flex-col gap-16  ">
+                <div className="flex flex-col gap-3">
+                  <Image
+                    src={icons03.src}
+                    alt="Grow"
+                    width={40}
+                    height={40}
+                    className="blend-darken mb-4"
+                  />
+                  <h2 className="text-4xl font-medium tracking-tighter">
+                    $299/mo
+                  </h2>
+                  <p className="text-lg mt-3 text-neutral-500 tracking-tight">
+                    Pro
+                  </p>
+                  <ul>
+                    <li>GPT-4 Turbo, Llama 3 70b & Claude Opus 3</li>
+                    <li className="">Custom Branding</li>
+                    <li className="">Custom Domain</li>
+                    <li className="">64 Generative UI Components</li>
+                    <li className="">Monthly Support</li>
+                  </ul>
+                </div>
+                <div>
+                  <a
+                    href="https://cal.com/dylanlp"
+                    className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
+                  >
+                    Book a Call
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16 h-full ">
-              <div className="flex flex-col gap-3 h-full">
-                <Image
-                  src={icons02.src}
-                  alt="Grow"
-                  width={40}
-                  height={40}
-                  className="blend-darken mb-4"
-                />
-                <h2 className="text-4xl font-medium tracking-tighter">
-                  $99/mo
-                </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Grow
-                </p>
-                <ul>
-                  <li>GPT-4 Turbo</li>
-                  <li>Custom Branding</li>
-                  <li>Remove Built with Typed UI</li>
-                  <li>Custom Domain</li>
-                  <li>28 Generative UI Components</li>
-                </ul>
-              </div>
-              <div className="mt-auto">
-                <a
-                  href="https://buy.stripe.com/7sIfZP1nK1QAgPmeUV"
-                  target="_blank"
-                  className="bg-neutral-900  cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
-                >
-                  Get Started
-                </a>
+        </div>
+
+        <div className="flex w-full flex-col gap-12 items-center justify-center my-12">
+          <div className="flex w-full flex-col gap-3 text-center">
+            <h2 className="text-4xl font-medium leading-10 tracking-tighter">
+              Features
+            </h2>
+            <p className="text-sm mt-2 text-neutral-500 tracking-tight">
+              Pricing plans that scale with you
+            </p>
+          </div>
+          <div className="w-full flex gap-4">
+            <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-2 h-full">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-sm text-green-600">Icon</p>
+                    <h2 className="text-lg font-medium tracking-tighter">
+                      Connect your data
+                    </h2>
+                  </div>
+                  <p className="text-sm text-neutral-500 tracking-tight">
+                    Connect your data via Airtable, Notion or CSV.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="flex flex-col  w-full rounded-3xl p-10 bg-neutral-50 border border-neutral-200">
-            <div className="flex flex-col gap-16  ">
-              <div className="flex flex-col gap-3">
-                <Image
-                  src={icons03.src}
-                  alt="Grow"
-                  width={40}
-                  height={40}
-                  className="blend-darken mb-4"
-                />
-                <h2 className="text-4xl font-medium tracking-tighter">
-                  $299/mo
-                </h2>
-                <p className="text-lg mt-3 text-neutral-500 tracking-tight">
-                  Pro
-                </p>
-                <ul>
-                  <li>GPT-4 Turbo, Llama 3 70b & Claude Opus 3</li>
-                  <li className="">Custom Branding</li>
-                  <li className="">Custom Domain</li>
-                  <li className="">64 Generative UI Components</li>
-                  <li className="">Monthly Support</li>
-                </ul>
+            <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-2 h-full">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-sm text-green-600">Icon</p>
+                    <h2 className="text-lg font-medium tracking-tighter">
+                      Connect your data
+                    </h2>
+                  </div>
+                  <p className="text-sm text-neutral-500 tracking-tight">
+                    Connect your data via Airtable, Notion or CSV.
+                  </p>
+                </div>
               </div>
-              <div>
-                <a
-                  href="https://cal.com/dylanlp"
-                  className="bg-neutral-900 cursor-pointer hover:bg-neutral-800 duration-200 ease-in-out inline-flex flex-1 items-center justify-center  text-white px-4 py-2 rounded-full"
-                >
-                  Book a Call
-                </a>
+            </div>
+            <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-2 h-full">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-sm text-green-600">Icon</p>
+                    <h2 className="text-lg font-medium tracking-tighter">
+                      Connect your data
+                    </h2>
+                  </div>
+                  <p className="text-sm text-neutral-500 tracking-tight">
+                    Connect your data via Airtable, Notion or CSV.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-2 h-full">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-sm text-green-600">Icon</p>
+                    <h2 className="text-lg font-medium tracking-tighter">
+                      Connect your data
+                    </h2>
+                  </div>
+                  <p className="text-sm text-neutral-500 tracking-tight">
+                    Connect your data via Airtable, Notion or CSV.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
+              <div className="flex flex-col gap-16 h-full ">
+                <div className="flex flex-col gap-2 h-full">
+                  <div className="flex flex-col gap-1">
+                    <p className="text-sm text-green-600">Icon</p>
+                    <h2 className="text-lg font-medium tracking-tighter">
+                      Connect your data
+                    </h2>
+                  </div>
+                  <p className="text-sm text-neutral-500 tracking-tight">
+                    Connect your data via Airtable, Notion or CSV.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
