@@ -45,9 +45,26 @@ import house3 from "./house3.jpg";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const [iframeLoaded, setIframeLoaded] = useState(false);
+
+  useEffect(() => {
+    setIframeLoaded(true);
+  }, []);
 
   return (
     <main className="flex  justify-between h-full bg-white">
+      {iframeLoaded && (
+        <iframe
+          className="hidden"
+          rel="preload"
+          src="https://mallorcainsights.typedui.com"
+          name="preview"
+          height="100%"
+          width="100%"
+          loading="eager"
+        ></iframe>
+      )}
+
       <Popover onOpenChange={(open) => setIsOpen(open)}>
         <PopoverTrigger className="z-20 fixed mr-4 mb-4 bottom-0 right-0 h-12 w-12 flex items-center justify-center rounded-full shadow-lg bg-primary text-white">
           <span id="popover-icon">
