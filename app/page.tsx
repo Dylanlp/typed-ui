@@ -17,8 +17,6 @@ import {
   IconWandAndStarsInverse,
 } from "symbols-react";
 
-import { Analytics } from "@vercel/analytics/react";
-
 import {
   Popover,
   PopoverContent,

@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   description: "Generative UI for Everyone",
 };
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,6 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Analytics />
       <link rel="icon" href={favicon.src} type="image/x-icon" />
       <body className={inter.className}>{children}</body>
     </html>
