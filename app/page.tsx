@@ -199,7 +199,7 @@ export default function Home() {
             </div>
           </div>
           <div className="w-full h-full z-10 ml-auto rounded-2xl  overflow-hidden">
-            <div className="h-full p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+            <div className="h-full p-0 md:p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
                 transition={{ delay: 0 }}
@@ -299,28 +299,28 @@ export default function Home() {
           <div className=" w-full grid grid-cols-2 sm:grid-cols-4   items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
             <div className="h-5">
               <img
-                className="h-5"
+                className="h-5 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/1200px-Airtable_Logo.svg.png"
                 alt="OpenAI"
               />
             </div>
             <div className="h-5">
               <img
-                className="h-5"
+                className="h-5 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png"
                 alt="OpenAI"
               />
             </div>{" "}
             <div className="h-5">
               <img
-                className="h-4"
+                className="h-5 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Webflow_logo_2023.svg"
                 alt="OpenAI"
               />
             </div>{" "}
             <div className="h-5">
               <img
-                className="h-5"
+                className="h-5 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/WordPress_logo.svg/2560px-WordPress_logo.svg.png"
                 alt="WordPress"
               />
@@ -736,7 +736,7 @@ export default function Home() {
               Helpful features we added to make your life easier
             </p>
           </div>
-          <div className="w-full grid grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="w-full grid grid-cols-2 lg:grid-cols-5 gap-2 md:gap-4">
             <div className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
               <div className="flex flex-col gap-16 h-full ">
                 <div className="flex flex-col gap-2 h-full">
