@@ -301,7 +301,7 @@ export default function Home() {
               <img
                 className=" md:h-5 h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/1200px-Airtable_Logo.svg.png"
-                alt="OpenAI"
+                alt="Airtable"
               />
             </div>
             <div className="h-8 md:h-5">
@@ -311,11 +311,11 @@ export default function Home() {
                 alt="OpenAI"
               />
             </div>{" "}
-            <div className="h-8 md:h-5">
+            <div className="h-8 md:h-4">
               <img
-                className=" md:h-5  h-8 object-contain"
+                className=" md:h-4  h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Webflow_logo_2023.svg"
-                alt="OpenAI"
+                alt="Webflow"
               />
             </div>{" "}
             <div className="h-8 md:h-5">
