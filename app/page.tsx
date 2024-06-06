@@ -296,7 +296,7 @@ export default function Home() {
         </div>
         <div className="flex mx-auto flex-col items-center justify-center py-6 gap-8 w-full">
           <p className="text-xs text-muted-foreground ">Integrates with</p>
-          <div className=" w-full grid grid-cols-2 sm:grid-cols-4   items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
+          <div className="inline-grid grid-cols-2 sm:grid-cols-4 items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
             <div className="h-8 md:h-5">
               <img
                 className=" md:h-5 h-8 object-contain"
