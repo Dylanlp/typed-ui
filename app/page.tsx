@@ -170,7 +170,7 @@ export default function Home() {
                 <h1 className="lg:text-6xl text-4xl font-medium lg:leading-[4rem] tracking-tighter">
                   Custom AI chatbot <br></br> for your website
                 </h1>
-                <p className="text-lg mt-3 text-muted-foreground tracking-tight w-full max-w-[37ch]">
+                <p className="text-lg mt-3 text-secondary-foreground tracking-tight w-full max-w-[37ch]">
                   Add your data, create your chat and embed it on your website,
                   all in 15 minutes.{" "}
                   <span className="font-medium ">No code required.</span>{" "}
