@@ -217,7 +217,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                  <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  inline-flex w-auto bg-muted text-sm ">
                     Ok, sure. Here are some properties you might like
                   </div>
                 </motion.div>
@@ -418,7 +418,7 @@ export default function Home() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
-                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  inline-flex w-auto bg-muted text-sm ">
                         Ok, sure. Here are some properties you might like
                       </div>
                     </motion.div>
@@ -518,7 +518,7 @@ export default function Home() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
-                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  inline-flex w-auto bg-muted text-sm ">
                         Yes we are open from 9am to 7pm on Tuesday
                       </div>
                     </motion.div>
@@ -561,7 +561,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-full">
-                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  inline-flex w-auto bg-muted text-sm ">
                       Great, we can help you with that. An areas in particular?
                     </div>
                   </div>
@@ -591,7 +591,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="w-full">
-                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  inline-flex w-auto bg-muted text-sm ">
                       Yes, we&apos;re open every weekday from 9am to 5pm
                     </div>
                   </div>
