@@ -226,7 +226,7 @@ export default function Home() {
                   transition={{ delay: 1.6 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="flex flex-row gap-2 text-sm"
+                  className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm"
                 >
                   <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm cursor-pointer hover:shadow-md duration-200 ease-in-out border">
                     <div className="h-20 relative overflow-hidden">
