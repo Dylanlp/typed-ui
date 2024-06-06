@@ -206,7 +206,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                <div className="text-white  px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                <div className="text-white  px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                   I&apos;m looking for a 3 bed, 2 bath with a pool
                 </div>
               </motion.div>
@@ -217,7 +217,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                 >
-                  <div className="text-primary px-4 py-2 inline-flex  rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                  <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
                     Ok, sure. Here are some properties you might like
                   </div>
                 </motion.div>
@@ -280,7 +280,7 @@ export default function Home() {
                 viewport={{ once: true }}
                 className="flex flex-row gap-2 text-sm"
               >
-                <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                   These look great, which is best if I like hiking?
                 </div>
               </motion.div>
@@ -407,7 +407,7 @@ export default function Home() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
-                    <div className="text-white  px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white  px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       I&apos;m looking for a 3 bed, 2 bath with a pool
                     </div>
                   </motion.div>
@@ -418,7 +418,7 @@ export default function Home() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
-                      <div className="text-primary px-4 py-2 inline-flex  rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
                         Ok, sure. Here are some properties you might like
                       </div>
                     </motion.div>
@@ -427,7 +427,7 @@ export default function Home() {
                       transition={{ delay: 1.6 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
-                      className="flex flex-row gap-2 text-sm"
+                      className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm"
                     >
                       <div className="rounded-lg w-full flex flex-col   overflow-hidden bg-white shadow-sm border">
                         <div className="h-20 relative overflow-hidden">
@@ -477,7 +477,7 @@ export default function Home() {
                     viewport={{ once: true }}
                     className="flex flex-row gap-2 text-sm"
                   >
-                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       These look great, which is best if I like hiking?
                     </div>
                   </motion.div>
@@ -507,7 +507,7 @@ export default function Home() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                   >
-                    <div className="text-white  px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white  px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       Are you open at 6pm on Tuesday?
                     </div>
                   </motion.div>
@@ -518,7 +518,7 @@ export default function Home() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                     >
-                      <div className="text-primary px-4 py-2 inline-flex  rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                      <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
                         Yes we are open from 9am to 7pm on Tuesday
                       </div>
                     </motion.div>
@@ -530,7 +530,7 @@ export default function Home() {
                     viewport={{ once: true }}
                     className="flex flex-row gap-2 text-sm"
                   >
-                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       Perfect, thanks!
                     </div>
                   </motion.div>
@@ -556,12 +556,12 @@ export default function Home() {
               <div className="flex flex-col pb-6 px-6 relative h-64">
                 <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
-                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       I&apos;m looking to buy a house for $1-3m
                     </div>
                   </div>
                   <div className="w-full">
-                    <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
                       Great, we can help you with that. An areas in particular?
                     </div>
                   </div>
@@ -586,12 +586,12 @@ export default function Home() {
               <div className="flex flex-col pb-6 px-6 relative h-64">
                 <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
-                    <div className="text-white px-4 py-2 inline-flex rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
+                    <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       I don&apos;t know what I want...
                     </div>
                   </div>
                   <div className="w-full">
-                    <div className="text-primary px-4 py-2 inline-flex rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
+                    <div className="text-primary px-4 py-2 rounded-r-full rounded-t-full  flex w-auto bg-muted text-sm ">
                       Yes, we&apos;re open every weekday from 9am to 5pm
                     </div>
                   </div>
