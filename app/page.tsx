@@ -297,30 +297,30 @@ export default function Home() {
         <div className="flex mx-auto flex-col items-center justify-center py-6 gap-8 w-full">
           <p className="text-xs text-muted-foreground ">Integrates with</p>
           <div className=" w-full grid grid-cols-2 sm:grid-cols-4   items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
-            <div className="h-5">
+            <div className="h-8 md:h-5">
               <img
-                className="h-5 object-contain"
+                className=" md:h-5 h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Airtable_Logo.svg/1200px-Airtable_Logo.svg.png"
                 alt="OpenAI"
               />
             </div>
-            <div className="h-5">
+            <div className="h-8 md:h-5">
               <img
-                className="h-5 object-contain"
+                className=" md:h-5 h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/512px-OpenAI_Logo.svg.png"
                 alt="OpenAI"
               />
             </div>{" "}
-            <div className="h-5">
+            <div className="h-8 md:h-5">
               <img
-                className="h-5 object-contain"
+                className=" md:h-5  h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/5/51/Webflow_logo_2023.svg"
                 alt="OpenAI"
               />
             </div>{" "}
-            <div className="h-5">
+            <div className="h-8 md:h-5">
               <img
-                className="h-5 object-contain"
+                className=" md:h-5 h-8 object-contain"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/WordPress_logo.svg/2560px-WordPress_logo.svg.png"
                 alt="WordPress"
               />
