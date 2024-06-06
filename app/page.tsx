@@ -732,7 +732,7 @@ export default function Home() {
             <h2 className="text-4xl font-medium leading-10 tracking-tighter">
               Features
             </h2>
-            <p className="text-sm mt-2 text-neutral-500 tracking-tight">
+            <p className="text-md mt-2 text-neutral-500 tracking-tight">
               Helpful features we added to make your life easier
             </p>
           </div>
