@@ -57,7 +57,7 @@ export default function Home() {
         <iframe
           className="hidden"
           rel="preload"
-          src="https://mallorcainsights.typedui.com"
+          src="https://mallorcainsights.typedui.com/support"
           name="preview"
           height="100%"
           width="100%"
@@ -79,7 +79,7 @@ export default function Home() {
           <iframe
             className="w-full h-full overflow-hidden"
             rel="preload"
-            src="https://mallorcainsights.typedui.com"
+            src="https://mallorcainsights.typedui.com/support"
             name="preview"
             height="100%"
             width="100%"
