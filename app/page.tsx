@@ -400,7 +400,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative ">
-                <div className="h-full p-8 bg-white flex flex-col items-end rounded-xl shadow-md gap-5">
+                <div className="h-full p-6 md:p-8 bg-white flex flex-col items-end rounded-xl shadow-md gap-5">
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     transition={{ delay: 0 }}
@@ -500,7 +500,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative ">
-                <div className="h-full p-8 bg-white flex flex-col items-end rounded-xl shadow-md gap-5">
+                <div className="h-full p-6 md:p-8 bg-white flex flex-col items-end rounded-xl shadow-md gap-5">
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     transition={{ delay: 0 }}
@@ -554,7 +554,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative h-64">
-                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                <div className="h-full bg-white p-6 md:p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
                     <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       I&apos;m looking to buy a house for $1-3m
@@ -584,7 +584,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col pb-6 px-6 relative h-64">
-                <div className="h-full bg-white p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
+                <div className="h-full bg-white p-6 md:p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
                   <div>
                     <div className="text-white px-4 py-2 rounded-l-full rounded-t-full  flex w-auto bg-primary text-sm ">
                       I don&apos;t know what I want...
