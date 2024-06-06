@@ -198,7 +198,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full h-full z-10 ml-auto rounded-2xl  overflow-hidden">
+          <div className="w-full h-full z-10 ml-auto ">
             <div className="h-full p-0 md:p-8 flex flex-col items-end rounded-xl shadow-md gap-5">
               <motion.div
                 initial={{ opacity: 0, y: 10 }}
