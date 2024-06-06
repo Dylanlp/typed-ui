@@ -88,8 +88,8 @@ export default function Home() {
         </PopoverContent>
       </Popover>
 
-      <div className="p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 h-auto lg:h-[496px]  overflow-hidden relative  gap-16 w-full rounded-3xl p-10  border ">
+      <div className="p-2 md:p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 h-auto lg:h-[496px]  overflow-hidden relative  gap-16 w-full rounded-3xl p-6 md:p-10  border ">
           <Image
             src={art4}
             alt="chat"
@@ -97,7 +97,7 @@ export default function Home() {
           />
 
           <div className="flex  flex-col z-10 w-full justify-between h-full">
-            <nav className="flex mb-4 lg:mb-0 items-center gap-12">
+            <nav className="flex mb-8 lg:mb-0 items-center gap-12">
               <a className="text-xl font-medium">
                 <svg
                   width="114"
@@ -296,7 +296,7 @@ export default function Home() {
         </div>
         <div className="flex mx-auto flex-col items-center justify-center py-6 gap-8 w-full">
           <p className="text-xs text-muted-foreground ">Integrates with</p>
-          <div className=" w-full flex flex-col sm:flex-row  items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
+          <div className=" w-full grid grid-cols-2 sm:grid-cols-4   items-center gap-16 mx-auto justify-center px-24 font-bold uppercase text-sm text-muted-foreground/50">
             <div className="h-5">
               <img
                 className="h-5"
@@ -390,11 +390,11 @@ export default function Home() {
                 alt="chat"
                 className=" absolute h-full  object-cover"
               />
-              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+              <div className="flex flex-col  text-white p-6 md:p-12 gap-2 z-10">
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Increase engagement
                 </h2>
-                <p className="text-xl  w-96 tracking-tight">
+                <p className="text-lg md:text-xl  w-full sm:w-96 tracking-tight">
                   Let your users ask questions and receive answers in helpful UI
                   components.
                 </p>
@@ -490,11 +490,11 @@ export default function Home() {
                 alt="chat"
                 className=" absolute h-full  object-cover"
               />
-              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+              <div className="flex flex-col  text-white  p-6 md:p-12 gap-2 z-10">
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Improve customer support
                 </h2>
-                <p className="text-xl  w-96 tracking-tight">
+                <p className="text-lg md:text-xl  w-full sm:w-96 tracking-tight">
                   Provide instant answers to user queries by leveraging your
                   data.
                 </p>
@@ -542,13 +542,13 @@ export default function Home() {
               <Image
                 src={art10}
                 alt="chat"
-                className=" absolute   object-cover"
+                className=" absolute h-full  object-cover"
               />
-              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+              <div className="flex flex-col  text-white  p-6 md:p-12 gap-2 z-10">
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Generate leads
                 </h2>
-                <p className="text-xl w-96 tracking-tight">
+                <p className="text-lg md:text-xl  w-full sm:w-96 tracking-tight">
                   Capture potential customers by allowing them to interact and
                   get immediate answers.
                 </p>
@@ -572,13 +572,13 @@ export default function Home() {
               <Image
                 src={art12}
                 alt="chat"
-                className=" absolute  scale-x-[-1] object-cover"
+                className=" absolute  scale-x-[-1] h-full object-cover"
               />
-              <div className="flex flex-col  text-white p-12 gap-2 z-10">
+              <div className="flex flex-col  text-white  p-6 md:p-12 gap-2 z-10">
                 <h2 className="text-3xl font-medium tracking-tighter">
                   Save time
                 </h2>
-                <p className="text-xl w-96 tracking-tight">
+                <p className="text-lg md:text-xl  w-full sm:w-96 tracking-tight">
                   Your team can spend less time on support by enabling users to
                   quickly get the information they need.
                 </p>
