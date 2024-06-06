@@ -98,7 +98,7 @@ export default function Home() {
 
           <div className="flex  flex-col z-10 w-full justify-between h-full">
             <nav className="flex mb-8 lg:mb-0 items-center gap-12">
-              <a className="text-xl font-medium">
+              <a href="/" className="text-xl font-medium">
                 <svg
                   width="114"
                   height="25"
@@ -152,17 +152,20 @@ export default function Home() {
                   />
                 </svg>
               </a>
-              {/* <div className=" text-neutral-500 text-sm tracking-tight flex gap-3">
-                <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
+              <div className=" text-neutral-500 text-sm tracking-tight flex gap-3">
+                {/* <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
                   Pricing
-                </a>
-                <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
-                  Use Cases
-                </a>
-                <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
+                </a> */}
+                {/* <a
+                  href="/blog"
+                  className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50"
+                >
+                  Blog
+                </a> */}
+                {/* <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
                   FAQs
-                </a>
-              </div> */}
+                </a> */}
+              </div>
             </nav>
 
             <div className="flex flex-col gap-16 mt-auto ">
