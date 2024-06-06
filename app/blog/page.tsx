@@ -177,7 +177,8 @@ export default function Blog() {
             </h2>
 
             <p className="text-sm text-neutral-500 tracking-tight">
-              We've done the research and found the best AI chatbots of 2024...
+              We&apos;ve done the research and found the best AI chatbots of
+              2024...
             </p>
           </a>
           <a
@@ -189,7 +190,8 @@ export default function Blog() {
             </h2>
 
             <p className="text-sm text-neutral-500 tracking-tight">
-              We've done the research and found the best AI chatbots of 2024...
+              We&apos;ve done the research and found the best AI chatbots of
+              2024...
             </p>
           </a>
           <a className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
@@ -198,7 +200,8 @@ export default function Blog() {
             </h2>
 
             <p className="text-sm text-neutral-500 tracking-tight">
-              We've done the research and found the best AI chatbots of 2024...
+              We&apos;ve done the research and found the best AI chatbots of
+              2024...
             </p>
           </a>
           <a className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
@@ -207,7 +210,8 @@ export default function Blog() {
             </h2>
 
             <p className="text-sm text-neutral-500 tracking-tight">
-              We've done the research and found the best AI chatbots of 2024...
+              We&apos;ve done the research and found the best AI chatbots of
+              2024...
             </p>
           </a>
         </div>

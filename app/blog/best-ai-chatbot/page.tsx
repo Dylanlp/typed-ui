@@ -189,14 +189,14 @@ export default function Blog() {
             />
             <h3 className="text-2xl font-medium">Getting started</h3>
             <p className="text-lg text-secondary-foreground ">
-              Welcome to our first blog post! In this post, we'll explore
-              various topics and share insights that we hope you'll find
+              Welcome to our first blog post! In this post, we&apos;ll explore
+              various topics and share insights that we hope you&apos;ll find
               valuable and engaging. Stay tuned for more updates and feel free
               to share your thoughts in the comments.
             </p>
             <p className="text-lg  text-secondary-foreground ">
-              Welcome to our first blog post! In this post, we'll explore
-              various topics and share insights that we hope you'll find
+              Welcome to our first blog post! In this post, we&apos;ll explore
+              various topics and share insights that we hope you&apos;ll find
               valuable and engaging. Stay tuned for more updates and feel free
               to share your thoughts in the comments.
             </p>
