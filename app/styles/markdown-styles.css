@@ -1,0 +1,35 @@
+.markdown {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .markdown h1 {
+    font-size: 2em;
+    color: #333;
+  }
+
+  .markdown p {
+    margin-bottom: 1em;
+  }
+
+  .markdown a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+
+  .markdown a:hover {
+    text-decoration: underline;
+  }
+
+  .markdown ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .markdown li {
+    margin-bottom: 0.5em;
+  }
+
+  .markdown strong {
+    font-weight: bold;
+  }
