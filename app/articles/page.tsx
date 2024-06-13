@@ -121,55 +121,6 @@ export default function Articles() {
           ))}
         </ul>
 
-        <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
-          <a
-            href="/blog/best-ai-chatbot"
-            className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100"
-          >
-            <h2 className="text-lg font-medium tracking-tighter">
-              Best AI Chatbots (2024)
-            </h2>
-
-            <p className="text-sm text-neutral-500 tracking-tight">
-              We&apos;ve done the research and found the best AI chatbots of
-              2024...
-            </p>
-          </a>
-          <a
-            href="/blog/5-tips-to-getting-your-very-first-customers"
-            className="flex flex-col gap-2  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100"
-          >
-            <h2 className="text-lg font-medium leading-6 tracking-tighter">
-              5 Tips to Getting your Very First Customers
-            </h2>
-
-            <p className="text-sm text-neutral-500 tracking-tight">
-              We&apos;ve done the research and found the best AI chatbots of
-              2024...
-            </p>
-          </a>
-          <a className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
-            <h2 className="text-lg font-medium tracking-tighter">
-              How to Build an Agency with Webflow
-            </h2>
-
-            <p className="text-sm text-neutral-500 tracking-tight">
-              We&apos;ve done the research and found the best AI chatbots of
-              2024...
-            </p>
-          </a>
-          <a className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100">
-            <h2 className="text-lg font-medium tracking-tighter">
-              Best AI Chatbots (2024)
-            </h2>
-
-            <p className="text-sm text-neutral-500 tracking-tight">
-              We&apos;ve done the research and found the best AI chatbots of
-              2024...
-            </p>
-          </a>
-        </div>
-
         <div className="flex flex-col gap-8 w-full">
           {" "}
           {/* <div className="flex w-full justify-between items-center gap-3 ">
