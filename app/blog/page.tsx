@@ -119,9 +119,9 @@ export default function Articles() {
                   {title}
                 </h2>
 
-                <p className="text-sm text-neutral-500 tracking-tight">
+                {/* <p className="text-sm text-neutral-500 tracking-tight">
                   {date}
-                </p>
+                </p> */}
               </a>
             </li>
           ))}
