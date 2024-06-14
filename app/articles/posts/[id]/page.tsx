@@ -1,10 +1,35 @@
 import React from "react";
 import { getSortedPostsData, PostData } from "../../../../lib/posts";
 
+import Prism from "prismjs";
+
 import art4 from "../../../art4.jpg";
 import "../../../styles/markdown-styles.css";
-
+import { Metadata } from "next";
 import Image from "next/image";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const postData = getSortedPostsData().find((post) => post.id === params.id);
+
+  if (!postData) {
+    return {
+      title: "Post not found",
+      description: "The post you are looking for does not exist.",
+    };
+  }
+
+  return {
+    title: postData.title,
+    description: postData.title,
+  };
+}
+
+// export const metadata: Metadata = {
+//   title: "{postData.title}",
+//   description: "Read our latest blog posts",
+// };
 
 interface PageProps {
   params: { id: string };
@@ -21,7 +46,7 @@ const PostPage: React.FC<PageProps> = ({ params }) => {
   return (
     <main className="flex  justify-between h-full bg-white">
       <div className="p-2 md:p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 h-auto   overflow-hidden relative  gap-16 w-full rounded-3xl p-6 md:p-10  border ">
+        <div className="flex h-auto   overflow-hidden relative  gap-16 w-full rounded-3xl p-6 md:p-10  border ">
           <Image
             src={art4}
             alt="chat"
@@ -100,21 +125,21 @@ const PostPage: React.FC<PageProps> = ({ params }) => {
               </div>
             </nav>
 
-            <div className="flex flex-col gap-16 mt-auto ">
-              <div className="flex flex-col gap-3">
-                <h1 className="lg:text-5xl mt-16 text-3xl font-medium lg:leading-[4rem] tracking-tighter">
+            <div className=" w-full  mt-auto ">
+              <div className="flex flex-col w-full gap-3">
+                <h1 className="lg:text-4xl mt-16 w-full text-3xl font-medium lg:leading-[2.8rem] tracking-tighter">
                   {postData.title}
                 </h1>
-                <p className="text-lg mt-3 text-secondary-foreground tracking-tight w-full max-w-[37ch]">
+                {/* <p className="text-lg mt-3 text-secondary-foreground tracking-tight w-full max-w-[37ch]">
                   {postData.date}
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
 
         <div className="w-full px-4 gap-2 md:gap-4 py-12">
-          <div className="max-w-screen-md mx-auto flex flex-col gap-8">
+          <div className="max-w-screen-sm mx-auto flex flex-col gap-8">
             <div
               className="markdown"
               dangerouslySetInnerHTML={{ __html: postData.contentHtml }}

@@ -1,8 +1,14 @@
 import React from "react";
 import { getSortedPostsData, PostData } from "../../lib/posts";
 import Image from "next/image";
+import { Metadata } from "next";
 
 import art4 from "../art4.jpg";
+
+export const metadata: Metadata = {
+  title: "Blog",
+  description: "Read our latest blog posts",
+};
 
 export default function Articles() {
   const allPostsData: PostData[] = getSortedPostsData();
@@ -109,7 +115,7 @@ export default function Articles() {
                 className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100"
                 href={`/articles/posts/${id}`}
               >
-                <h2 className="text-lg font-medium tracking-tighter">
+                <h2 className="text-lg font-medium leading-6 tracking-tighter">
                   {title}
                 </h2>
 

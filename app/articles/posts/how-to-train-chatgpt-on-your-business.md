@@ -1,5 +1,5 @@
 ---
-title: "The first blog post"
+title: "How to train chatgpt on your business"
 date: "2020-01-02"
 ---
 
