@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 
-const postsDirectory = path.join(process.cwd(), "app/articles/posts");
+const postsDirectory = path.join(process.cwd(), "app/blog/posts");
 
 export interface PostData {
   id: string;
