@@ -156,12 +156,12 @@ export default function Home() {
                 {/* <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
                   Pricing
                 </a> */}
-                {/* <a
+                <a
                   href="/blog"
                   className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50"
                 >
                   Blog
-                </a> */}
+                </a>
                 {/* <a className="px-3 flex cursor-pointer items-center flex-none py-1 hover:text-neutral-900 rounded-full duration-300 ease-in-out hover:bg-white/50">
                   FAQs
                 </a> */}
