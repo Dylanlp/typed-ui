@@ -15,7 +15,7 @@ export default function Articles() {
 
   return (
     <main className="flex  justify-between h-full bg-white">
-      <div className="p-2 md:p-8 max-w-screen-xl mx-auto w-full flex flex-col items-center gap-4">
+      <div className="p-2 md:p-8 max-w-screen-xl mx-auto w-full min-h-screen flex flex-col items-center gap-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 h-auto   overflow-hidden relative  gap-16 w-full rounded-3xl p-6 md:p-10  border ">
           <Image
             src={art4}
@@ -112,7 +112,7 @@ export default function Articles() {
           {allPostsData.map(({ id, date, title }) => (
             <li className="flex flex-col w-full" key={id}>
               <a
-                className="flex flex-col  w-full rounded-3xl p-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100"
+                className="flex flex-col  w-full rounded-3xl px-6 py-4 bg-muted/10 hover:bg-muted/50 duration-200 ease-in-out border border-neutral-100"
                 href={`/blog/posts/${id}`}
               >
                 <h2 className="text-lg font-medium leading-6 tracking-tighter">
@@ -127,7 +127,7 @@ export default function Articles() {
           ))}
         </ul>
 
-        <div className="flex flex-col gap-8 w-full">
+        <div className="flex flex-col gap-8 mt-auto w-full">
           {" "}
           {/* <div className="flex w-full justify-between items-center gap-3 ">
       <a className="text-xl font-medium">
